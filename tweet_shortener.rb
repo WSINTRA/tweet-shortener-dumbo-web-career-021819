@@ -36,10 +36,16 @@ holdingarr.map do |word|
   word
 end.join(" ")
 end
-#newstring = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
-#puts word_substituter(newstring)
+
 def bulk_tweet_shortener(tweets)
   tweets.each do |string|
     puts word_substituter(string)
   end
 end
+
+def selective_tweet_shortener(tweets)
+  puts tweets
+end
+
+newstring = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
+selective_tweet_shortener(newstring)
