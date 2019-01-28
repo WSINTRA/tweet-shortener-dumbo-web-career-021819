@@ -24,12 +24,13 @@ def dictionary()
       "at" => "@",
       "and" => "&"
     }
+    replacements
 end
 
 def word_substituter(string)
 holdingarr = string.split(" ")
 holdingarr.map do |word|
-  replacements.each do |key, value|
+  dictionary.each do |key, value|
     word = value if word.downcase == key
   end
   word
