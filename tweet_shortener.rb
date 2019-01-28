@@ -47,5 +47,5 @@ def selective_tweet_shortener(tweets)
   puts tweets
 end
 
-newstring = "Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"
-selective_tweet_shortener(newstring)
+tweetArr = ["GUISEEEEE this is so fun! I'm tweeting for you guys and this tweet is SOOOO long it's gonna be way more than you would think twitter can handle, so shorten it up you know what I mean? I just can never tell how long to keep typing!","Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!"]
+selective_tweet_shortener(tweetArr)
